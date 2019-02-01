@@ -1,0 +1,336 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+.ny-wrap {
+    overflow: hidden;
+    position: relative;
+    background: #182768 url('https://fex.net/show/172691405686/1052589785?1600w,0') no-repeat center center / cover;
+    height: 100vh;
+}
+
+.trig-gameNY{
+    position: relative;
+    margin-top: 495px;
+    margin-left: 1260px;
+    z-index: 100;
+}
+
+.trig-gameNY a{
+    font: 22px "Open Sans", Arial, sans-serif;
+    padding: 6px 15px;
+    color: #fff;
+    background: #164aa3;
+    box-shadow: 4px 4px 0px 0px #001a46;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.trig-gameNY a:hover{
+    background: #0c57d7;
+    box-shadow: 5px 5px 0px 0px #002f80;
+}
+
+.trig-gamea{
+    -webkit-animation: wobble-ver-left 4s 2s infinite both;
+    animation: wobble-ver-left 4s 2s infinite both;
+}
+
+.trig-gamea:hover{
+    animation-play-state: paused;
+}
+
+.layers.snow1 {
+    background: url('https://fex.net/show/172691405686/1052589789?1600w,0') no-repeat left top;
+}
+.layers.snow2 {
+    background: url('https://fex.net/show/172691405686/1052589790?1600w,0') no-repeat right top;
+}
+.layers.moon {
+    background: url('https://fex.net/show/172691405686/1052589786?1600w,0') no-repeat center;
+}
+
+
+.layers.deers {
+    background: url('https://fex.net/show/172691405686/1052589788?1600w,0') no-repeat center;
+}
+
+.layers.transparant {
+    background: url('https://fex.net/show/172691405686/1052995337?1600w,0') no-repeat center;
+}
+
+.tape1{
+    background: url('https://fex.net/show/172691405686/1052723538?1600w,0') no-repeat;
+}
+
+.layers.tape2{
+    background: url('https://fex.net/show/172691405686/1052723539?1600w,0') no-repeat;
+}
+
+.layers.tape3{
+    background: url('https://fex.net/show/172691405686/1052723546?1600w,0') no-repeat;
+}
+
+.layers.tape4{
+    background: url('https://fex.net/show/172691405686/1052723535?1600w,0') no-repeat;
+}
+
+.layers.christmas-tree{
+    background: url('https://fex.net/show/172691405686/1052951308?1600w,0') repeat-x center bottom;
+}
+
+.layers.icicles{
+    background: url('https://fex.net/show/172691405686/1053018085?1600w,0') repeat-x;
+}
+
+.ny-wrap .layers {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.ny-wrap .moon {
+    top: -310px;
+    left: 20%;
+    z-index: 1;
+}
+.ny-wrap .deers {
+    left: 20%;
+    top: -100px;
+}
+
+.ny-wrap .snow1,
+.ny-wrap .snow2
+{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.ny-wrap .transparant {
+    left: -12%;
+    top: -100px;
+}
+
+.ny-wrap .tape1 {
+    top: -3px;
+    left: 10%;
+}
+
+.ny-wrap .tape2 {
+    top: -3px;
+    left: 19%;
+}
+
+.ny-wrap .tape3 {
+    top: -3px;
+    left: 60%;
+}
+
+.ny-wrap .tape4 {
+    top: -3px;
+    left: 50%;
+}
+
+.christmas-tree {
+    bottom: -3%;
+}
+
+.icicles{
+    top: -6px;
+    z-index: 2;
+}
+
+.lightrope {
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index: 3;
+    margin: -15px 0 0 0;
+    padding: 0;
+    pointer-events: none;
+    width: 100%;
+}
+
+.lightrope li {
+    position: relative;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 12px;
+    height: 28px;
+    border-radius: 50%;
+    margin: 20px;
+    display: inline-block;
+    background: #00f7a5;
+    box-shadow: 0px 4.66667px 24px 3px #00f7a5;
+    -webkit-animation-name: flash-1;
+    animation-name: flash-1;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.lightrope li:nth-child(2n+1) {
+    background: cyan;
+    box-shadow: 0px 4.66667px 24px 3px rgba(0, 255, 255, 0.5);
+    -webkit-animation-name: flash-2;
+    animation-name: flash-2;
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+}
+
+.lightrope li:nth-child(4n+2) {
+    background: #f70094;
+    box-shadow: 0px 4.66667px 24px 3px #f70094;
+    -webkit-animation-name: flash-3;
+    animation-name: flash-3;
+    -webkit-animation-duration: 1.1s;
+    animation-duration: 1.1s;
+}
+
+.lightrope li:nth-child(odd) {
+    -webkit-animation-duration: 1.8s;
+    animation-duration: 1.8s;
+}
+
+.lightrope li:nth-child(3n+1) {
+    -webkit-animation-duration: 1.4s;
+    animation-duration: 1.4s;
+}
+
+.lightrope li:before {
+    content: "";
+    position: absolute;
+    background: #222;
+    width: 10px;
+    height: 9.33333px;
+    border-radius: 3px;
+    top: -4.66667px;
+    left: 1px;
+}
+
+.lightrope li:after {
+    content: "";
+    top: -14px;
+    left: 9px;
+    position: absolute;
+    width: 52px;
+    height: 18.66667px;
+    border-bottom: solid #222 2px;
+    border-radius: 50%;
+}
+
+.lightrope li:last-child:after {
+    content: none;
+}
+
+.lightrope li:first-child {
+    margin-left: -40px;
+}
+
+@-webkit-keyframes flash-1 {
+    0%, 100% {
+        background: #00f7a5;
+        box-shadow: 0px 4.66667px 24px 3px #00f7a5;
+    }
+    50% {
+        background: rgba(0, 247, 165, 0.4);
+        box-shadow: 0px 4.66667px 24px 3px rgba(0, 247, 165, 0.2);
+    }
+}
+
+@keyframes flash-1 {
+    0%, 100% {
+        background: #00f7a5;
+        box-shadow: 0px 4.66667px 24px 3px #00f7a5;
+    }
+    50% {
+        background: rgba(0, 247, 165, 0.4);
+        box-shadow: 0px 4.66667px 24px 3px rgba(0, 247, 165, 0.2);
+    }
+}
+
+@-webkit-keyframes flash-2 {
+    0%, 100% {
+        background: cyan;
+        box-shadow: 0px 4.66667px 24px 3px cyan;
+    }
+    50% {
+        background: rgba(0, 255, 255, 0.4);
+        box-shadow: 0px 4.66667px 24px 3px rgba(0, 255, 255, 0.2);
+    }
+}
+
+@keyframes flash-2 {
+    0%, 100% {
+        background: cyan;
+        box-shadow: 0px 4.66667px 24px 3px cyan;
+    }
+    50% {
+        background: rgba(0, 255, 255, 0.4);
+        box-shadow: 0px 4.66667px 24px 3px rgba(0, 255, 255, 0.2);
+    }
+}
+
+@-webkit-keyframes flash-3 {
+    0%, 100% {
+        background: #f70094;
+        box-shadow: 0px 4.66667px 24px 3px #f70094;
+    }
+    50% {
+        background: rgba(247, 0, 148, 0.4);
+        box-shadow: 0px 4.66667px 24px 3px rgba(247, 0, 148, 0.2);
+    }
+}
+
+@keyframes flash-3 {
+    0%, 100% {
+        background: #f70094;
+        box-shadow: 0px 4.66667px 24px 3px #f70094;
+    }
+    50% {
+        background: rgba(247, 0, 148, 0.4);
+        box-shadow: 0px 4.66667px 24px 3px rgba(247, 0, 148, 0.2);
+    }
+}
+
+
+
+@keyframes wobble-ver-left {
+    0%{
+{
+    -webkit-transform: translateY(-30px) rotate(-6deg);
+    transform: translateY(-30px) rotate(-6deg);
+}
+75% {
+    -webkit-transform: translateY(15px) rotate(6deg);
+    transform: translateY(15px) rotate(6deg);
+}
+},
+100% {
+    -webkit-transform: translateY(0) rotate(0);
+    transform: translateY(0) rotate(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+15% {
+    -webkit-transform: translateY(-30px) rotate(-6deg);
+    transform: translateY(-30px) rotate(-6deg);
+}
+30% {
+    -webkit-transform: translateY(15px) rotate(6deg);
+    transform: translateY(15px) rotate(6deg);
+}
+10% {
+    -webkit-transform: translateY(-15px) rotate(-3.6deg);
+    transform: translateY(-15px) rotate(-3.6deg);
+}
+}
